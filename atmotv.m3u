@@ -964,3 +964,6 @@ https://cempedak-live-cdn.mncnow.id/live/eds/LifeStyleFashion/sa_dash_vmx/LifeSt
 
 #EXTINF:-1 group-title="ATMO TV" tvg-logo="https://i.imgur.com/b51gvtv.jpg",MAGNA Channel
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="FailArmy" tvg-logo="https://i.imgur.com/WupT16d.jpg" group-title="ATMO TV",FailArmy
+https://failarmy-international-it.samsung.wurl.tv/playlist.m3u8
