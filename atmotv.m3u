@@ -163,11 +163,10 @@ https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/antv.png" tvg-id="ANTV.id" tvg-name="ID: ANTV" group-title="ATMO TV",ANTV 
-https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd 
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha 
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YzZhZjI1NjMtYzEzYy0zYjkyLTg0Y2MtNmEwOTg0NDk5MTJm 
+#EXTINF:-1 group-title="ATMO TV" tvg-id="ANTV.id" tvg-name="ANTV" tgv-url="" tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/antv.png", ANTV
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+http://op-group1-swiftservehd-1.dens.tv/s/s07/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=antv
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/btv.png" group-title="ATMO TV",BTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
