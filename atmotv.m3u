@@ -965,15 +965,15 @@ https://cempedak-live-cdn.mncnow.id/live/eds/LifeStyleFashion/sa_dash_vmx/LifeSt
 #EXTINF:-1 group-title="ATMO TV" tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/mag.png",MAGNA Channel
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="FailArmy" tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/fa.png" group-title="ATMO TV",FailArmy
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/fa.png" group-title="ATMO TV",FailArmy
 https://failarmy-international-it.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="People are awesome" tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/paa.png" group-title="ATMO TV",People are awesome
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/paa.png" group-title="ATMO TV",People are awesome
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608017cbe375e400070cc981/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 
-#EXTINF:-1 tvg-name="Just for laughs" tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/jfl.png" group-title="ATMO TV",Just for laughs
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/jfl.png" group-title="ATMO TV",Just for laughs
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f48c95132a00075fd859/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 
 #EXTINF:-1 
-#EXTINF:-1 tvg-name="Just for laughs" tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/gags.png" group-title="ATMO TV",Just for laughs GAGS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/gags.png" group-title="ATMO TV",Just for laughs GAGS
 https://streams2.sofast.tv/sofastplayout/4c727f82-d2ec-4a07-870c-49a6f22ee6f9_0_HLS/master.m3u8
