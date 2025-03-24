@@ -325,31 +325,69 @@ http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
 
 ///// MTV /////
 
-#EXTINF:-1 tvg-id="718.astro" tvg-logo="https://www.getsatellite.com/channels/mtv-live.png" group-title="MTV",MTV Live
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fd2992f9397c491497015b57cd1c8747:1dcd4c7b242b479fd9f1899120fd1f2f
-https://atemecdnbalancer-voe.sysln.id/live/eds/MTVLiveHD/mpd/MTVLiveHD.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 group-title="MTV" tvg-logo="https://i.imgur.com/4D8EMdN.png",MTV LIVE
+http://cempedak-live-cdn.mncnow.id/live/eds/MTV/sa_dash_vmx/MTV.mpd
+#EXTINF:-1 group-title="MTV" tvg-logo="https://i.imgur.com/4D8EMdN.png",MTV LIVE
+https://dl.dropboxusercontent.com/scl/fi/t5jmkfvjeeat0mindhg9f/mtv-live.m3u8?rlkey=ojubtyhqjwb6t64rdnz795lg3&st=evxgozdm
+
+#EXTINF: -1 tvg-id="mtvhits" tvg-logo="https://i.imgur.com/uFAgqmB.png" group-title="MTV", MTV HITS
+https://dl.dropboxusercontent.com/scl/fi/ppzsy5sk7yyr1fi3kljp9/mtv-hits.m3u8?rlkey=5shgvv0vxsg2bo1xklvpdzwgh&st=9iauspvm
+
+#EXTINF: -1 tvg-id="mtvhits" tvg-logo="https://i.imgur.com/uFAgqmB.png" group-title="MTV", MTV HITS
+http://extraott.com:900/live/3162523972/3791698850/1202.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
-#EXTINF:-1 tvg-id="MTVLive.us" tvg-url="https://raw.githubusercontent.com/hendroagung2904/JejeVisionEpg/main/JejeVisionEpg.xml" tvg-logo="https://www.getsatellite.com/channels/mtv-live.png" group-title="MTV",MTV Live HD
-https://cempedak-live-cdn.mncnow.id/live/eds/MTV/sa_dash_vmx/MTV.mpd
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF: -1 tvg-logo="https://i.imgur.com/FgCttRp.png" group-title="MTV", MTV 90S
+http://cempedak-live-cdn.mncnow.id/live/eds/MTV-90-HD/sa_dash_vmx/MTV-90-HD.mpd
 
-#EXTINF:-1 tvg-id="MTV 90s - [Channel 149].id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/MTV_90s_2022.svg/640px-MTV_90s_2022.svg.png" group-title="MTV",MTV 90s
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=37ef71f668c1c1126595be0f557587f5:008df022d78a9ec318a745cf8365b048
-#EXTVLCOPT:http-referrer=https://visionplus.id/
-https://d1abp075u76pbq.cloudfront.net/live/eds/MTV-90-HD/sa_dash_vmx/MTV-90-HD.mpd
+#EXTVLCOPT:http-user-agent=VLC/3..0.9 LibVLC/3.0.9
+#EXTVLCOPT:network-caching=1000
+#EXTINF: -1 tvg-logo="https://i.imgur.com/FgCttRp.png" group-title="MTV", MTV 90S
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch241)/index.m3u8
 
-#EXTINF:-1 group-title="MTV" tvg-logo="https://images.pluto.tv/channels/6047fd723b5bd00007de7092/thumbnail.jpg",MTV Spankin' New
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d14fdb8ca91eedee1633117/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a29f3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f1066e5a-9a82-4a1b-a025-868c083394e4
+#EXTINF: -1 tvg-logo="https://i.imgur.com/aY535mQ.png" group-title="MTV", MTV 80S
+http://extraott.com:80/live/3162523972/3791698850/62028.m3u8
 
-#EXTINF:-1 group-title="MTV" tvg-logo="https://public-assets-pressexpress.s3.amazonaws.com/assets/pages/images/2022/09/08/MTV_BiggestPOP_Channel_1080x1080_Square-beg5ce6t.png",MTV Biggest Pop
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d14fd1a252d35decbc4080c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a02e7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=db3aa987-9f35-4664-b523-5fe34623b36c
+#EXTINF: -1 tvg-name="MX | MTV 00sⓧ" tvg-logo="https://i.imgur.com/3ftRfJY.png" group-title="MTV", MTV 00s
+https://dl.dropboxusercontent.com/scl/fi/xzrzrotai9d3ypzx37gav/mtv-00s.m3u8?rlkey=e4h79qvy742yf9rfdo08qpoqr&st=bfk64ckf
 
-#EXTINF:-1 group-title="MTV" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032018/untitled-3_18.png?jhmEInDz6YmAwnXCJ9b8uZH7PGF4C8pj&itok=0nl1Orgl",MTV Unplugged
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f98471110cca20007d39f76/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ae2b53-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=81574af2-8af4-46c8-8d63-00cbea99cbf5
+#EXTINF: -1 tvg-logo="https://i.imgur.com/8jNUJB4.png" group-title="MTV", MTV BIGGEST POP
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fd1a252d35decbc4080c/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+#EXTINF: -1 tvg-logo="https://i.imgur.com/wBjelqz.png" group-title="MTV", MTV SPANKIN' NEW
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fdb8ca91eedee1633117/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+#EXTINF: -1 tvg-logo="https://i.imgur.com/nFtIdAN.png" group-title="MTV", MTV ROCKS
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/624303598e45140007d765c1/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+#EXTINF: -1 tvg-logo="https://i.imgur.com/YfiWoVQ.png" group-title="MTV", MTV YO!
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fc31252d35decbc4080b/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+#EXTINF: -1 tvg-logo="https://i.imgur.com/hWjTzOu.png" group-title="MTV", MTV FLOW LATINO
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d3609cd6a6c78d7672f2a81/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+#EXTINF: -1 tvg-logo="https://i.imgur.com/HUiSjLq.png" group-title="MTV", MTV REALITY
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/625eb3e245f5bc0007810046/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+#EXTINF: -1 tvg-id="mtv classic" tvg-logo="https://i.imgur.com/Iqg7qne.jpeg" group-title="MTV", MTV CLASSIC
+https://dl.dropboxusercontent.com/scl/fi/obcp3ygr16sss9mmohphm/mtv-classic.m3u8?rlkey=sspoqmn45z927gr4jpbpie7ul&st=kf2fpu4z
+
+#EXTINF: -1 tvg-id="clubmtv" tvg-logo="https://i.imgur.com/AzMFO46.jpeg" group-title="MTV", CLUB MTV
+https://dl.dropboxusercontent.com/scl/fi/0rmfz0mk5qdox3mjjdump/club-mtv.m3u8?rlkey=iejym2lpmtb0wzg5cwf0w1hcf
+
+#EXTINF: -1 tvg-id="mtv" tvg-logo="https://i.imgur.com/EEI1CyX.jpeg" group-title="MTV", MTV
+http://extraott.com:80/live/3162523972/3791698850/166488.m3u8
+
+#EXTINF: -1 tvg-id="MTV2East.us" tvg-name="USA | MTV2ⓧ HD" tvg-logo="https://i.imgur.com/wHUK7Yu.png" group-title="MTV", MTV 2
+https://dl.dropboxusercontent.com/scl/fi/fb6di3i381bzpd5ofc50k/mtv-2.m3u8?rlkey=mfuo41wrtuwrcxa8aiu7k4n8g
+
+#EXTINF: -1 tvg-id="now80s" tvg-logo="https://i.imgur.com/NXtMC1A.png" group-title="MTV", MTV MUSIC
+https://dl.dropboxusercontent.com/scl/fi/nxc4fexpvogkt27rbcj87/mtv-music.m3u8?rlkey=58w2dsa03lj7wg2ghi332am0k
 
 
 ///Pluto TV///
