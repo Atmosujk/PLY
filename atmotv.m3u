@@ -187,7 +187,7 @@ https://b1world.beritasatumedia.com/Beritasatu/B1World_manifest.m3u8
 #KODIPROP:inputstream.adaptive.license_key=1f12a0fe110248a6811faf8a0ddf19c6:af565f760064594c755515cb6b4b6f1a
 https://atemeshield1-voe.sysln.id/live/eds/IDXChannelHD/mpd/IDXChannelHD.mpd
 
-#EXTINF:-1 tvg-id="27" https://yt3.googleusercontent.com/97ik7fzsNUT2KCp7xZP1JE8JhE9cK37QDeCMcJbW8TTGlV1QNhHi8xFSFG-9aUQGVU68ZTQa=s900-c-k-c0x00ffffff-no-rj" group-title="NASIONAL",INDONESIANA TV
+#EXTINF:-1 tvg-id="27" tvg-logo="https://raw.githubusercontent.com/Atmosujk/Logo/refs/heads/main/grd.png" group-title="NASIONAL",INDONESIANA TV
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://tvstreamcast.com/indonesiana.m3u8
